@@ -1,22 +1,15 @@
-# Avaliacoes-M7-Inteli
-Avaliações do Módulo 7
+# Instruções
 
-Para executar o backend:
+Para rodar a solução vá até o diretório raiz e rode
 
-```bash
-python main.py
+```
+docker compose up
 ```
 
-Para executar o frontend:
+depois basta acessar o <a href="https://localhost:3000">localhost:3000</a>
 
-vá até o diretório "frontend" e rode
+# Explicação
 
-```bash
-npm i 
-```
+Existem dois dockerfiles que servem cada um para armanezar as dependencias de cada solução, por isso foi dividido em back e front. Essa modularização é muito boa para que tenha mais agilidade no processo, se toda a aplicação fosse armazenada em apenas um container iria dificultar muito a edição do código posteriormente.
 
-para então rodar o front com o comando:
-
-```bash
-node server.js
-```
+Meu dockerhub: <a href="https://hub.docker.com/repository/docker/vzeferino/prova/general">https://hub.docker.com/repository/docker/vzeferino/prova/general</a>
