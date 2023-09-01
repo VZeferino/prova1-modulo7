@@ -9,8 +9,14 @@ python main.py
 
 Para executar o frontend:
 
+vá até o diretório "frontend" e rode
+
+```bash
+npm i 
+```
+
+para então rodar o front com o comando:
+
 ```bash
 node server.js
 ```
-
-| ***IMPORTANTE:*** Utilizar dentro do contexto do container.

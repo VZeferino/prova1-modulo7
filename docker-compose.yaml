@@ -1,0 +1,15 @@
+version: '1'
+services:
+  back:
+    image: vzeferino/prova:backend
+    ports:
+      - 8000:8000
+    container_name: back
+
+  front:
+    image: vzeferino/prova:frontend
+    ports:
+      - 3000:3000
+    depends_on:
+    - back
+    container_name: front
